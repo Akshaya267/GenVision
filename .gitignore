@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch / Hugging Face model checkpoints & cache
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+.cache/
+huggingface/
+transformers_cache/
+diffusers_cache/
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Output files & local logs
+outputs/*
+!outputs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+*.log
